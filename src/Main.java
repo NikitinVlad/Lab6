@@ -14,5 +14,10 @@ public class Main {
         {
             System.out.print("б ");
         }
+        System.out.println("\nБуква я");
+        for(int i=0; i<5;i++)
+        {
+            System.out.print("я ".toUpperCase());
+        }
     }
 }
