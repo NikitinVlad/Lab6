@@ -8,5 +8,10 @@ public class Main {
         {
             System.out.println("Число "+ (i+1));
         }
+        System.out.println("Первое изменение:");
+        for(int i=6; i<11; i++)
+        {
+            System.out.println("Число " + i);
+        }
     }
 }
