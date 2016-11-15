@@ -12,7 +12,7 @@ public class Main {
         System.out.println("\nБуква б");
         for(int i=0; i<5;i++)
         {
-            System.out.print("б ");
+            System.out.print("б ".toUpperCase());
         }
         System.out.println("\nБуква я");
         for(int i=0; i<5;i++)
