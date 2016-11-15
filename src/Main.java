@@ -4,14 +4,10 @@
 public class Main {
     public static void main(String[] args)
     {
-        for(int i=0; i<5; i++)
+        System.out.println("Второе изменение");
+        for (int i=10;i>0;i--)
         {
-            System.out.println("Число "+ (i+1));
-        }
-        System.out.println("Первое изменение:");
-        for(int i=6; i<11; i++)
-        {
-            System.out.println("Число " + i);
+            System.out.println("Число "+i);
         }
     }
 }
